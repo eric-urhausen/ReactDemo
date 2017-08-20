@@ -1,0 +1,46 @@
+a {
+  color: white!important;
+}
+li {
+  display: block;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+.fa {
+  margin-right: 10px;
+}
+.text-centered {
+  text-align: center;
+}
+
+.sidebar {
+  background-color: #0f1f2e;
+  height: 100vh;
+}
+.sidebar-img-conainer {
+  text-align: center;
+}
+.sidebar-img {
+  filter: brightness(0) invert(1);
+  margin: 20px auto;
+  max-width: 130px;
+}
+.badge {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d9534f;
+  margin-left: 5px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+#profile {
+  padding: 50px 10px;
+}
+#profile img {
+  max-width: 128px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
