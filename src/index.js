@@ -15,17 +15,17 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
-      <div>
+      <div className="row">
         <SideBar />
-        <div className="col-sm-8" style={{backgroundColor:'#eee',height:'100vh'}}>
+        <div className="col-sm-8 col-md-9 col-lg-10" style={{backgroundColor:'#eee',height:'100vh'}}>
           <Switch>
-            <Route path="/dashboard/:id" component={Dashboard} />
             <Route path="/profile" component={Profile} />
             <Route path="/partners" component={Partners} />
             <Route path="/" component={Dashboard} />
+            <Route path="/:id" component={Dashboard} />
           </Switch>
         </div>
       </div>
     </BrowserRouter>
   </Provider>
-  , document.querySelector('.container'));
+  , document.querySelector('.container-fluid'));

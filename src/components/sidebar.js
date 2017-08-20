@@ -4,7 +4,7 @@ import { Link} from 'react-router-dom'
 class SideBar extends Component {
   render() {
     return (
-      <div className="sidebar col-sm-4 col-md-4">
+      <div className="sidebar col-sm-4 col-md-3 col-lg-2">
         <div className="sidebar-img-conainer">
           <img className="sidebar-img" src="http://www.trysourcify.com/images/sourcify-logo-dark.png"/>
         </div>
