@@ -6,7 +6,7 @@ There are two methods for getting started with this repo.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/eric-urhusen/react-demo.git
+> git clone https://github.com/eric-urhausen/ReactDemo.git
 > cd react-demo
 > npm install
 > npm start
