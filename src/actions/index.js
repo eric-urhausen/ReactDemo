@@ -11,3 +11,10 @@ export function fetchProfile(profile)  {
     payload: proflie
   };
 }
+
+export function fetchParnters(partners)  {
+  return {
+    type: 'FETCH_PARTNERS',
+    payload: partners
+  };
+}

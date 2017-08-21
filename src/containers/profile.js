@@ -10,6 +10,10 @@ class Profile extends Component {
       <div id="profile" className="row">
         <div className="col-sm-6 text-centered">
           <img src={this.props.profile[0].image} />
+          <div className="form-group">
+            <label htmlFor="exampleFormControlFile1">Upload New Profile Image</label>
+            <input type="file" className="form-control-file" style={{margin: '0 auto',width: '201px'}} id="exampleFormControlFile1"/>
+          </div>
           <h3>{this.props.profile[0].name}</h3>
           <button type="button" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
             Delete Account

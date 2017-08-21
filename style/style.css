@@ -1,23 +1,30 @@
-a {
-  color: white!important;
-}
-li {
-  display: block;
-  cursor: pointer;
-}
-li:hover {
-  text-decoration: underline;
-}
 .fa {
   margin-right: 10px;
 }
 .text-centered {
   text-align: center;
 }
-
+.row {
+  padding-left: 200px;
+}
 .sidebar {
   background-color: #0f1f2e;
-  height: 100vh;
+  height: 100%;
+  position: fixed!important;
+  left: 0;
+  top: 0;
+  min-width: 200px;
+  max-width: 200px!important;
+}
+.sidebar a {
+  color: white!important;
+}
+.sidebar li {
+  display: block;
+  cursor: pointer;
+}
+.sidebar li:hover {
+  text-decoration: underline;
 }
 .sidebar-img-conainer {
   text-align: center;
@@ -36,7 +43,9 @@ li:hover {
   border-radius: 50%;
   font-size: 13px;
 }
-#profile {
+/* PROFILE */
+
+#profile, #partners, #project {
   padding: 50px 10px;
 }
 #profile img {
@@ -44,7 +53,56 @@ li:hover {
   margin-bottom: 10px;
   border-radius: 50%;
 }
-/* OVERRIDES*/
+
+/* PARTNERS */
+#partners img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#partners button {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+#partners .project-detail {
+  padding-left: 0;
+}
+#partners .project-detail:hover {
+  text-decoration: underline;
+}
+/* DASHBOARD */
+#dashboard h3 {
+  margin-top: 20px;
+}
+#dashboard .row, #project .row {
+  padding-left: 0;
+}
+
+/* PROJECT */
+
+#project li{
+  font-size: 10px;
+  background-color: #a6b2b9;
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 80px;
+  min-width: 80px;
+  height: 80px;
+  text-align: center;
+  cursor: default;
+  display: block;
+  padding: 14px 10px;
+  color:#61696e;
+}
+#project li.active{
+  background-color: #4094ed;
+  color:#ffffff;
+}
+#project .fa {
+  margin:0 0 5px;
+}
+/* OVERRIDES */
 .form-inline .form-group, .form-inline label, .form-inline  {
   display: block!important;
 }
