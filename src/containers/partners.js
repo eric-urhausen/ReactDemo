@@ -9,6 +9,7 @@ class Partners extends Component {
       return <div>No Projects At this time</div>
     }
     return projects.map((project_id) => {
+      console.log(project_id)
       const project = _.find(this.props.projects, _.matches({'project_id': project_id}));
       return (
         <div

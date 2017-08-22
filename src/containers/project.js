@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 class Project extends Component {
   render() {
     const project = _.filter(this.props.projects, { 'project_id': this.props.match.params.id });
-    console.log(project[0].phase);
     return (
       <div id="project">
         <div className="card">

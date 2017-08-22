@@ -8,9 +8,9 @@ export default function () {
       image: 'https://avatars1.githubusercontent.com/u/11507861?v=4&s=460',
       phone: '6197886218',
       projects: [
-        100,
-        101,
-        102
+        '100',
+        '101',
+        '102'
       ]
     },
     {
@@ -21,8 +21,8 @@ export default function () {
       image: 'https://avatars1.githubusercontent.com/u/11507861?v=4&s=460',
       phone: '6197886218',
       projects: [
-        200,
-        201
+        '200',
+        '201'
       ]
     },
     {
@@ -33,7 +33,7 @@ export default function () {
       image: 'https://avatars1.githubusercontent.com/u/11507861?v=4&s=460',
       phone: '6197886218',
       projects: [
-        300
+        '300'
       ]
     },
     {
